@@ -1,0 +1,242 @@
+#header {
+	overflow:hidden; 
+margin:0;
+background: rgba(0,0,0,0);
+height: 150px;
+background-repeat: no-repeat;
+width:100%;
+
+}
+#footer {
+	overflow-x:hidden;
+margin:0;
+height: 100px;
+background:linear-gradient(rgba(51,51,51,100),black);
+
+font-size: 14pt;
+}
+
+nav{
+height: 100px;
+min-width:500px;
+}
+nav ul{
+background:linear-gradient(90deg,
+	rgba(255,255,255,0)0%,
+	rgba(255,255,255,0.2)25%,
+	rgba(255,255,255,0.2)75%,
+	rgba(255,255,255,0)100%);
+box-shadow: 0 0 25px rgba(0,0,0,0.1),
+inset 0 0 1px rgba(255,255,255,0.6);
+}
+nav ul li {
+	display:inline-block;
+    color:ghostwhite
+}
+nav ul li a{
+	padding:0;
+	color:ghostwhite ;
+	font-size:42px;
+	font-family:fantasy;
+	text-decoration: none;
+	display:block;
+	text-shadow: 5 5 5px rgba(0,0,0,1);
+	
+}
+#bg {
+	
+	width:100%;
+	background-repeat: no-repeat;
+	display: block;
+    background-image:url(jojo.jpg);
+	background-attachment: fixed;
+}
+#bg1 {	
+	width:100%;
+	background-repeat: no-repeat;
+	display: block;
+    background-image:url(gpubg.jpg);
+	background-attachment: fixed;
+}
+#bg2 {	
+	width:100%;
+	background-repeat: no-repeat;
+	display: block;
+    background-image:url(mem1.jpg);
+	background-attachment: fixed;
+}
+#bg3 {	
+	width:100%;
+	background-repeat: no-repeat;
+	display: block;
+    background-image:url(cpu2.jpg);
+	background-attachment: fixed;
+}
+#bg4 {	
+	width:100%;
+	background-repeat: no-repeat;
+	display: block;
+    background-image:url(mb.jpg);
+	background-attachment: fixed;
+}
+#feel1{
+background: rgba(0,0,0,0);
+	margin:0;	
+height: 500px;
+background-image:url(jojo.jpg);
+background-attachment: fixed;
+}
+#feel2{
+background: rgba(0,0,0,0);
+	margin:0;	
+height: 400px;
+background-image:url(jojo1.png);
+background-attachment: fixed;
+}
+#feel5{
+background: rgba(0,0,0,0);
+	margin:0;	
+height: 400px;
+background-image:url(jojo2.jpg);
+background-attachment: fixed;
+}
+#feel3{
+background: rgba(0,0,0,0);
+	margin:0;	
+height: 100px;
+background-image:url(jojo2.jpg);
+background-attachment: fixed;
+}
+#feel4{
+   background: rgba(0,0,0,0);
+	margin:0;	
+height:900px;
+    width: 100%;
+background-image:url(bgg.png);
+background-attachment: fixed; 
+
+}
+#content1{
+		overflow:hidden;
+    color: white;
+margin:0;	
+height: 500px;
+background: rgba(51,51,51,100);
+	text-align:center;
+font-family: 'URW Chancery L', cursive  ;
+
+    font-size: 25pt;  
+} 
+
+#content2{
+		overflow-x:hidden;
+margin:0;	
+height: 500px;
+background: rgba(51,51,51,100);
+
+font-family: 'URW Chancery L', cursive  ;
+color: white;
+        font-size: 25pt;   	
+    
+}
+#content3{
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: hidden;
+   height: 800px;
+   width: 800px;
+    font-size: 32px;
+    overflow-x: hidden;
+   background-color: rgba(51,51,51,0.7);
+    display: block;
+    color: white;
+   
+}
+#content4{
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: hidden;
+   height: 800px;
+   width: 800px;
+    font-size: 32px;
+    overflow-x: hidden;
+   background-color: rgba(51,51,51,0.7);
+    display: block;
+    color: white;
+}
+.title{
+font-size: 36px;
+padding-top: 10px;
+text-align: center;
+color:skyblue;
+	
+}
+
+.waifu{
+	
+	
+	 
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    position:relative;
+	left:10%;
+    top:150;
+    bottom:150;
+    
+    box-shadow: 0px 5px 5px black;
+}
+.waifu:hover:before, .waifu:hover{
+    box-shadow:none;
+    cursor:pointer;
+}
+.menu{
+list-style: none;
+position: absolute;
+top: 10px;
+right: 100px;
+}
+a {
+text-decoration: none;
+cursor:pointer;	
+color:black ;
+} 
+a:hover{
+color:crimson;
+}
+#poop{
+    position: relative;
+    
+    left:10%;
+}
+#tt{
+   margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 30;
+}
+#pp {
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-right: 30px;
+}
+#name {
+    height: 2%;
+    width: 15%;
+    padding-top: 1%;
+ margin-right: 1000;  
+ position: relative;
+ left: 5%;
+ color:white;
+    font-size: 20px;
+}
+#krit {
+    height: 2%;
+    width: 15%;
+    padding-top: 1%;
+ margin-left: 1000;  
+ position: relative;
+ left: 5%;
+ color:white;
+    font-size: 20px;    
+}
